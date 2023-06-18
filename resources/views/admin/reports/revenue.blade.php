@@ -7,7 +7,7 @@
                 <div class="col-lg-12">
                     <div class="card card-default">
                         <div class="card-header card-header-border-bottom">
-                            <h2>Revenue Report</h2>
+                            <h2>Pelaporan Penerimaan</h2>
                         </div>
                         <div class="card-body">
                             <form action="{{ route('admin.reports.revenue') }}" method="get" class="mb-5">
@@ -44,8 +44,8 @@
                             <table class="table table-bordered table-striped">
                                     <thead>
                                         <th>No</th>
-                                        <th>Date</th>
-                                        <th>Total Revenue</th>
+                                        <th>Tanggal</th>
+                                        <th>Total Penerimaan</th>
                                     </thead>
                                     <tbody>
                                         @forelse ($reports as $report)

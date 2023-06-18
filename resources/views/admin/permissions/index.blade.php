@@ -10,7 +10,7 @@
         <div class="card">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('Permission') }}
+                    {{ __('Izin') }}
                 </h6>
                 <div class="ml-auto">
                     @can('permission_create')
@@ -18,7 +18,7 @@
                         <span class="icon text-white-50">
                             <i class="fa fa-plus"></i>
                         </span>
-                        <span class="text">{{ __('New permission') }}</span>
+                        <span class="text">{{ __('Izin Baru') }}</span>
                     </a>
                     @endcan
                 </div>
@@ -32,8 +32,8 @@
 
                                 </th>
                                 <th>No</th>
-                                <th>Title</th>
-                                <th>Action</th>
+                                <th>Titel</th>
+                                <th>Rencana</th>
                             </tr>
                         </thead>
                         <tbody>

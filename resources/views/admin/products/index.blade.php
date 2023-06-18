@@ -10,14 +10,14 @@
         <div class="card">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('product') }}
+                    {{ __('produk') }}
                 </h6>
                 <div class="ml-auto">
                     <a href="{{ route('admin.products.create') }}" class="btn btn-primary">
                         <span class="icon text-white-50">
                             <i class="fa fa-plus"></i>
                         </span>
-                        <span class="text">{{ __('New product') }}</span>
+                        <span class="text">{{ __('Produk Baru') }}</span>
                     </a>
                 </div>
             </div>
@@ -31,12 +31,12 @@
                                 </th>
                                 <th>No</th>
                                 <th>Barcode</th>
-                                <th>Name</th>
-                                <th>Price</th>
-                                <th>Category</th>
-                                <th>Quantity</th>
-                                <th>Image</th>
-                                <th>Action</th>
+                                <th>Nama</th>
+                                <th>Harga</th>
+                                <th>Kategori</th>
+                                <th>Kuantitas</th>
+                                <th>Gambar</th>
+                                <th>Rencana</th>
                             </tr>
                         </thead>
                         <tbody>

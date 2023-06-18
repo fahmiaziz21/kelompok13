@@ -10,7 +10,7 @@
                         <input
                             type="text"
                             class="form-control productCode"
-                            placeholder="Scan Barcode..."
+                            placeholder="Pindai Barcode..."
                         />
                         <button class="btn btn-sm rounded btn-success scan">Find</button>
                     </form>
@@ -21,9 +21,9 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Product Name</th>
-                                <th>Quantity</th>
-                                <th class="text-right">Price</th>
+                                <th>Nama Produk</th>
+                                <th>Kuantitas</th>
+                                <th class="text-right">Harga</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="row my-2">
-                    <div class="col">Return:</div>
+                    <div class="col">Kembalian:</div>
                     <div class="col text-right"> 
                         <input type="number" value="" name="return" readonly class="form-control return">
                     </div>
@@ -76,7 +76,7 @@
                 <input
                     type="text"
                     class="form-control search"
-                    placeholder="Search Product..."
+                    placeholder="Cari Produk..."
                 />
             </div>
             <div class="order-product product-search" style="display: flex;column-gap: 0.5rem;flex-wrap: wrap;row-gap: .5rem;">

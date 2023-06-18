@@ -19,8 +19,8 @@
                         <tr>
                             <th>#</th>
                             <th>Item</th>
-                            <th>Quantity</th>
-                            <th>Unit Cost</th>
+                            <th>Kuantitas</th>
+                            <th>Harga per Unit</th>
                             <th>Total</th>
                         </tr>
                     </thead>

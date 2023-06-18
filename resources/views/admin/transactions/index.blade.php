@@ -10,7 +10,7 @@
         <div class="card">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('transaction') }}
+                    {{ __('Transaksi') }}
                 </h6>
             </div>
             <div class="card-body">
@@ -22,11 +22,11 @@
 
                                 </th>
                                 <th>No</th>
-                                <th>Date</th>
-                                <th>Code</th>
-                                <th>Name</th>
-                                <th>Total Price</th>
-                                <th>Action</th>
+                                <th>Tanggal</th>
+                                <th>Kode</th>
+                                <th>Nama</th>
+                                <th>Total Harga</th>
+                                <th>Rencana</th>
                             </tr>
                         </thead>
                         <tbody>
